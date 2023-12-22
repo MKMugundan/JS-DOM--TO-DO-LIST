@@ -1,0 +1,105 @@
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body
+{
+  background: url('background.avif') no-repeat center center/ cover;
+  display: grid;
+  place-items:center;
+  height:500px;
+}
+
+.add-task-container
+{
+  background-color: rgb(255, 255, 255); 
+  height:50px;
+  width:520px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius:15px;
+  gap:20px;
+}
+input
+{
+  width:400px;
+  height:30px;
+  margin:10px;
+  border:solid black 1px;
+  border-radius:10px;
+  padding-left:5px;
+  letter-spacing:1px;
+  color:black;
+  font-size: 2rem;
+}
+#add-task
+{
+  width:60px;
+  height:30px;
+  background-color: transparent;
+  border:solid black 1px;
+  border-radius:5px;
+}
+#add-task:hover
+{
+  background-color: lightgray;
+  border-radius:5px;
+  transition:0.5s;
+}
+#plus:hover
+{
+  transition:0.5s;
+  transform: rotate(90deg);
+  color:orangered;
+}
+.task
+{
+  background-color: white;
+  width:520px;
+  margin-top:20px;
+  border-radius:10px;
+  display: flex;
+}
+li
+{
+  font-size:1.5rem;
+  text-align: center;
+  text-decoration:solid;
+  flex:4;
+}
+button
+{
+  flex:0.75; 
+}
+.checkTask
+{
+  background-color: lightgray;
+  color:orange;
+  border:solid orange 1px;
+  border-radius:5px;
+  margin:5px;
+}
+.checkTask:hover
+{
+  background-color: orange;
+  color:lightgray;
+}
+.deleteTask
+{
+  background-color: lightgray;
+  color:red;
+  border:solid red 1px;
+  border-radius:5px;
+  margin:5px;
+}
+.deleteTask:hover
+{
+  background-color: red;
+  color:lightgray;
+}
+
+
+
